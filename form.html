@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário</title>
+</head>
+<body>
+	<table>
+	<h1>Formulário de Inscrição em Eventos</h1>
+		<tr>
+		<form name="form1" action="enviamail.php" method="post">
+	
+			<td align="right">
+			<fieldset>
+					<p><label>Nome completo: <input type="text" name="nome" ></label></p>
+					<p><label>E-mail: <input type="text" name="e-mail" ></label></p>
+					<p><label>Sexo: <input type="radio" name="sexo" value="M" checked="checked"> Masculino <input type="radio" name="sexo" value="F"> Feminino </label></p>
+					<p><label>Cargo: <input type="text" name="cargo" ></label></p>
+					<p><label>Nascimento: <input type="date" name="nascimento" ></label></p>
+					<p><label>Telefone: <input type="text" name="telefone" ></label></p>
+			</fieldset>
+			</td>
+		</form>
+		</tr>
+	</table>
+	
+	<table>
+	<b>Informações da Instituição</b><br>
+	Preencha os campos abaixo com as informações da empresa em que trabalha.
+		<tr>
+		<form name="form1" action="enviamail.php" method="post">
+			<td align="right">
+			<fieldset>
+					<p><label>Empresa: <input type="text" name="nome" ></label></p>
+					<p><label>Endereço: <input type="text" name="e-mail" ></label></p>
+					<p><label>Cidade: <input type="text" name="e-mail" ></label></p>
+					<p><label>Estado: <select name="Sexo">
+					<option select disabled>Selecione</option>
+					<option value="RO">RO</option>
+					<option value="SP">SP</option>
+					<option value="RJ">RJ</option>
+					</select></label></p>
+					<p><label>Quant. Funcionários: <input type="text" name="cargo" ></label></p>
+					<p><label>Observações: <input type="text" name="nascimento" ></label></p>
+			</fieldset>
+			</td>
+		</form>
+		</tr>
+	</table>
+</body>
+</html>
