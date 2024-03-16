@@ -6,6 +6,7 @@
 	<title>Formulário</title>
 </head>
 <body>
+
 	<table>
 	<h1>Formulário de Inscrição em Eventos</h1>
 		<tr>
@@ -26,7 +27,7 @@
 	</table>
 	
 	<table>
-	<b>Informações da Instituição</b><br>
+	<h2>Informações da Instituição</h2><br>
 	Preencha os campos abaixo com as informações da empresa em que trabalha.
 		<tr>
 		<form name="form1" action="enviamail.php" method="post">
@@ -44,9 +45,12 @@
 					<p><label>Quant. Funcionários: <input type="text" name="cargo" ></label></p>
 					<p><label>Observações: <input type="text" name="nascimento" ></label></p>
 			</fieldset>
+			<p align="center">Recibo: <input type="checkbox" name="recibo" value="M">Emitir em nome da instiuição</p>
+			<p align="left"><input type="submit" value="Fazer inscrição"></p>
 			</td>
 		</form>
 		</tr>
 	</table>
+
 </body>
 </html>
